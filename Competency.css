@@ -1,0 +1,105 @@
+body {
+    background-color:silver;
+    color:darkblue;
+}
+Header {
+    background-image: url(delllogo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 400%;
+    text-indent: 1em;
+}
+header :link {
+    color: black;
+    text-decoration: none;
+}
+header :visited {
+    color: black;
+    text-decoration: none;
+}
+header :hover {
+    color: #90c7e3;
+    text-decoration: none;
+}
+* { box-sizing: border-box;}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #90c7e3;
+    width: 80%;
+    max-width: 2048px;
+    min-width: 960px;
+    box-shadow: 3px 3px 3px #333333;
+    border: 1px #000033;
+    background-image: linear-gradient(to bottom, #ffffff, rgb(34, 34, 202));
+}
+nav {
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 150%;
+    float:left;
+    width: 160px;
+}
+nav :link {
+    color: #5c7fa3
+}
+nav :visited {
+    color: #344873
+}
+nav :hover {
+    color: #a52a2a
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left:0;
+    font-size: 1.2em;
+}
+main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    background-color: #ffffff;
+    margin-left: 190px;
+    overflow: auto;
+}
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+    margin-left: 190px;
+    background-color:#ffffff;
+}
+table {
+    background-color: aqua;
+    border-style: solid;
+}
+td, th {
+    padding: 0.5em;
+    border: solid 2px #3399CC;
+}
+label {
+    float:left;
+    display:block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display:block;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
